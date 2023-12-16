@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+body {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 340px;
+  box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 0 25px 25px;
+}
+.hero {
+  display: flex;
+  position: relative;
+  margin-left: -25px;
+  width: calc(100% + 50px);
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px 16px 0 0;
+}
+.svg {
+  position: absolute;
+  bottom: -97px;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+p {
+  font-size: 1rem;
+  color: #677489;
+}
+
+.group {
+  display: grid;
+  padding-top: 14px;
+  grid-template-columns: 40px auto;
+  grid-template-rows: 1fr;
+  column-gap: 15px;
+  row-gap: 0;
+}
+
+.name {
+  grid-column: 2;
+  grid-row: 1;
+  font-weight: 600;
+  color: #111729;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.job {
+  margin-top: 4px;
+
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+}
+.group img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #f2f5f9;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+hr {
+  margin-left: -25px;
+  width: calc(100% + 50px);
+}
